@@ -119,15 +119,7 @@ export function Contact() {
                     <span className="font-medium text-sm">mfarden</span>
                   </div>
                 </a>
-                <a href="https://mfardeen-azam.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center space-x-4 text-white/80 hover:text-emerald-400 transition-colors group">
-                  <div className="w-12 h-12 rounded-lg bg-[#050505] flex items-center justify-center border border-white/10 group-hover:border-emerald-500/50">
-                    <Globe size={20} />
-                  </div>
-                  <div>
-                    <span className="block text-[10px] uppercase font-mono tracking-widest text-white/40 mb-1">Portfolio</span>
-                    <span className="font-medium text-sm">mfardeen-azam.vercel.app</span>
-                  </div>
-                </a>
+                
               </div>
             </div>
             

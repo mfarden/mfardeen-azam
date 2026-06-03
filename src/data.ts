@@ -1,4 +1,8 @@
 import { Code, Code2, Database, Layout, Server, Settings, ShieldCheck, Smartphone, Zap, Globe, Figma, Maximize } from 'lucide-react';
+import websiteDesignImg from './assets/images/website_design_1780481421214.png';
+import airscopeTechImg from './assets/images/airscope_tech_1780481441855.png';
+import nbsUaeImg from './assets/images/nbs_uae_1780481461069.png';
+import walaCoffeeImg from './assets/images/wala_coffee_1780481478692.png';
 
 export const HERO = {
   headline: "Building High-Performance WordPress Websites That Drive Results",
@@ -76,38 +80,41 @@ export const SKILLS = {
 
 export const PORTFOLIO = [
   {
-    title: "E-Commerce Store",
-    description: "Custom WooCommerce website with optimized checkout flow.",
-    category: "WooCommerce"
+    title: "Website Design Company",
+    description: "Professional IT and digital marketing service agency website.",
+    category: "Corporate",
+    image: websiteDesignImg
   },
   {
-    title: "Corporate Website",
-    description: "Professional business website built with Elementor.",
-    category: "Corporate"
+    title: "Airscope Tech",
+    description: "Technology and drone services platform.",
+    category: "Technology",
+    image: airscopeTechImg
   },
   {
-    title: "Booking Platform",
-    description: "Appointment and reservation system with custom functionality.",
-    category: "Custom WordPress"
+    title: "NBS UAE",
+    description: "Business and corporate services in the UAE.",
+    category: "Business",
+    image: nbsUaeImg
   },
   {
-    title: "Landing Page Funnel",
-    description: "High-converting landing page focused on lead generation.",
-    category: "Marketing"
-  },
-  {
-    title: "Membership Website",
-    description: "Subscription-based platform with user management features.",
-    category: "Membership"
-  },
-  {
-    title: "Custom WordPress Solution",
-    description: "Bespoke WordPress development tailored to client requirements.",
-    category: "Custom"
+    title: "Wala Coffee",
+    description: "E-Commerce website for a coffee brand with online ordering.",
+    category: "WooCommerce",
+    image: walaCoffeeImg
   }
 ];
 
 export const EXPERIENCE = [
+  {
+    role: "Frontend | Wordpress Developer",
+    company: "Visual-Z ",
+    period: "September 2025 - Present",
+    achievements: [
+      "Developing custom WordPress websites, converting Figma designs into responsive web experiences, building WooCommerce stores, and optimizing website performance for speed and usability."
+    ],
+        technologies: [ "Figma to WP", "Custom Theme Development", "WooCommerce","Git"]
+  },
   {
     role: "Wordpress Developer",
     company: "Digital Ride",
@@ -115,10 +122,11 @@ export const EXPERIENCE = [
     achievements: [
       "Custom WordPress Development – Designed and developed fully tailored WordPress themes and plugins to match unique client requirements.",
       "Pixel-Perfect Design Conversion – Transformed Figma, Adobe XD, and PSD designs into responsive, dynamic, and high-performing WordPress websites."
-    ]
+    ],
+    technologies: [ "Figma to WP", "Custom Themes", "Custom Theme Development"]
   },
   {
-    role: "Wordpress Developer",
+    role: "Landing page  |Wordpress Developer",
     company: "Local Freelancer",
     period: "January 2024 – Present",
     achievements: [
@@ -126,17 +134,19 @@ export const EXPERIENCE = [
       "Custom Theme Development: Built tailored themes and plugins to match client needs and branding.",
       "Responsive & SEO-Friendly Sites: Delivered mobile-friendly and optimized websites for better performance and rankings.",
       "Direct Client Collaboration: Managed end-to-end communication, gathering requirements, and delivering solutions on time."
-    ]
+    ],
+    technologies: ["Figma to WordPress", "Elementor", "Landing pages", "Responsive UI"]
   },
   {
-    role: "Wordpress Developer",
+    role: "Frontend  |  Wordpress Developer ",
     company: "USEO - United Search Engine Optimization",
     period: "January 2023 - January 2024 (1 year 1 month)",
     achievements: [
       "Advanced Content Management: Implemented custom post types, taxonomies, and Advanced Custom Fields (ACF) for flexible content handling.",
       "Design-to-Code Conversion: Converted Figma, Adobe XD, and PSD designs into fully functional, dynamic WordPress sites.",
       "Website Maintenance & Bug Fixing: Provided ongoing support, bug fixes, and performance optimizations across multiple client sites."
-    ]
+    ],
+    technologies: ["WordPress", "ACF", "Custom Post Types", "PHP", "MySQL"]
   }
 ];
 

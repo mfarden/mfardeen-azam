@@ -6,7 +6,7 @@ export function Services() {
     <section id="services" className="py-24 bg-[#050505]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-16 text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white uppercase tracking-tighter italic">My Services</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white uppercase tracking-tighter italic">Our Services</h2>
           <p className="text-white/60 max-w-2xl text-lg m-auto">Delivering tailored, high-performance web solutions.</p>
         </div>
 

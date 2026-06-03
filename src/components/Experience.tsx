@@ -4,7 +4,7 @@ import { CheckCircle2, Briefcase, FileText, Calendar } from 'lucide-react';
 
 export function ExperienceSection() {
   return (
-    <section className="py-20 bg-[#050505] border-t border-white/10">
+    <section className="py-24 bg-[#050505] border-t border-white/10">
       <div className="max-w-5xl mx-auto px-6">
         
         {/* Header */}
@@ -69,7 +69,7 @@ export function ExperienceSection() {
 
                 {/* Tech Tags */}
                 <div className="flex flex-wrap gap-2 mt-8 border-t border-white/10 pt-6">
-                  {["WordPress", "WooCommerce", "PHP", "Elementor", "MySQL"].map(tech => (
+                  {exp.technologies?.map(tech => (
                     <span key={tech} className="px-3 py-1 border border-white/10 bg-white/5 rounded-md text-[10px] uppercase tracking-widest text-white/50 font-bold">
                       {tech}
                     </span>

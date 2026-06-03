@@ -6,14 +6,13 @@ export function Footer() {
       <div className="max-w-7xl mx-auto px-6 flex flex-col md:flex-row items-center justify-between">
         <div className="mb-6 md:mb-0 text-center md:text-left">
           <span className="text-xl font-bold text-white mb-2 block tracking-tight">M. Fardeen Azam</span>
-          <p className="text-white/40 text-[10px] uppercase font-mono tracking-widest">© {new Date().getFullYear()} Digital Craftsman // All Rights Reserved.</p>
+          <p className="text-white/40 text-[10px] uppercase font-mono tracking-widest">© {new Date().getFullYear()}  All Rights Reserved.</p>
         </div>
         
         <div className="flex flex-wrap justify-center gap-6 md:gap-8 mb-6 md:mb-0">
            <a href="#home" className="text-white/50 hover:text-emerald-400 text-[10px] uppercase tracking-widest transition-colors font-bold">Home</a>
            <a href="#about" className="text-white/50 hover:text-emerald-400 text-[10px] uppercase tracking-widest transition-colors font-bold">About</a>
            <a href="#services" className="text-white/50 hover:text-emerald-400 text-[10px] uppercase tracking-widest transition-colors font-bold">Services</a>
-           <a href="#portfolio" className="text-white/50 hover:text-emerald-400 text-[10px] uppercase tracking-widest transition-colors font-bold">Portfolio</a>
            <a href="#skills" className="text-white/50 hover:text-emerald-400 text-[10px] uppercase tracking-widest transition-colors font-bold">Skills</a>
         </div>
         

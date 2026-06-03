@@ -21,11 +21,17 @@ export function Portfolio() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="group relative rounded-2xl overflow-hidden bg-white/5 border border-white/10 hover:border-emerald-500/50 transition-colors"
             >
-              <div className="aspect-[4/3] relative overflow-hidden flex items-center justify-center p-6 pb-0">
-                 {/* Abstract visual representation instead of missing images */}
-                 <div className="w-full h-full rounded-t-xl bg-[#050505] border border-white/10 border-b-0 relative overflow-hidden flex items-center justify-center group-hover:scale-[1.02] transition-transform duration-500 origin-bottom">
-                    <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+CjxjaXJjbGUgY3g9IjIiIGN5PSIyIiByPSIyIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDMpIi8+Cjwvc3ZnPg==')] opacity-50 block"></div>
-                    <span className="text-emerald-500/20 font-bold text-4xl tracking-tighter uppercase italic">{project.category}</span>
+              <div className="aspect-[4/3] relative overflow-hidden flex items-center justify-center p-6 pb-0 group-hover:p-4 transition-all duration-500">
+                 {/* Project image */}
+                 <div className="w-full h-full rounded-t-xl bg-[#050505] border border-white/10 border-b-0 relative overflow-hidden flex items-center justify-center transition-transform duration-500 origin-bottom">
+                    {project.image ? (
+                       <img src={project.image} alt={project.title} className="absolute inset-0 w-full h-full object-cover rounded-t-xl group-hover:scale-110 transition-transform duration-700" />
+                    ) : (
+                       <>
+                         <div className="absolute inset-0 bg-[url('data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyMCIgaGVpZ2h0PSIyMCI+CjxjaXJjbGUgY3g9IjIiIGN5PSIyIiByPSIyIiBmaWxsPSJyZ2JhKDI1NSwyNTUsMjU1LDAuMDMpIi8+Cjwvc3ZnPg==')] opacity-50 block"></div>
+                         <span className="text-emerald-500/20 font-bold text-4xl tracking-tighter uppercase italic">{project.category}</span>
+                       </>
+                    )}
                  </div>
               </div>
               <div className="p-6 relative">
@@ -33,7 +39,7 @@ export function Portfolio() {
                 <h3 className="text-xl font-bold text-white mb-2 italic underline decoration-emerald-500 decoration-2 underline-offset-4 font-serif">{project.title}</h3>
                 <p className="text-white/50 text-sm mb-4 line-clamp-2">{project.description}</p>
                 
-                <a href="#" className="inline-flex items-center text-xs font-bold text-white uppercase tracking-widest hover:text-emerald-400 transition-colors">
+                  <a href={project.link || "#"} target={project.link ? "_blank" : undefined} rel={project.link ? "noopener noreferrer" : undefined} className="inline-flex items-center text-xs font-bold text-white uppercase tracking-widest hover:text-emerald-400 transition-colors">
                   View Project <ExternalLink size={14} className="ml-2" />
                 </a>
               </div>
