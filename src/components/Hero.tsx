@@ -32,7 +32,7 @@ export function Hero() {
           
           <div className="flex flex-col lg:flex-row items-start lg:items-end justify-between gap-12 w-full">
             <div className="flex flex-wrap items-center gap-4 w-full lg:w-auto">
-              <a href="#services" className="px-6 py-3 border border-white/20 text-white font-bold uppercase text-[10px]   hover:text-emerald-500 tracking-widest hover:border-emerald-500 transition-all">
+              <a href="#services" className="px-6 py-3 border border-white/20 text-white font-bold uppercase text-[10px]   hover:text-emerald-500 tracking-widest hover:border-emerald-500 transition-all w-full sm:w-auto text-center">
                 INITIALIZE SERVICES
               </a>
              
