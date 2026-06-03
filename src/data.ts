@@ -126,7 +126,7 @@ export const EXPERIENCE = [
     technologies: [ "Figma to WP", "Custom Themes", "Custom Theme Development"]
   },
   {
-    role: "Landing page  |Wordpress Developer",
+    role: "Landing page  | Wordpress Developer",
     company: "Local Freelancer",
     period: "January 2024 – Present",
     achievements: [
