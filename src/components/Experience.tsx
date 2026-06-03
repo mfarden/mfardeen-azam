@@ -12,7 +12,7 @@ export function ExperienceSection() {
           <div className="inline-flex items-center gap-2 px-3 py-1.5 rounded-full border border-emerald-500/20 bg-emerald-500/10 text-emerald-400 text-xs font-bold uppercase tracking-widest mb-6">
             <FileText size={14} /> Work History
           </div>
-          <h2 className="text-4xl md:text-5xl font-black text-white tracking-tighter uppercase italic mb-4">Career Timeline</h2>
+          <h2 className="text-4xl md:text-5xl font-black text-white tracking-tighter uppercase  mb-4">Career Timeline</h2>
           <p className="text-white/60 text-lg font-light max-w-2xl m-auto">
             3+ years of building web solutions. From passionate developer to trusted full-stack WordPress expert.
           </p>
@@ -82,7 +82,7 @@ export function ExperienceSection() {
 
         {/* Why Choose Me section repositioned to the bottom */}
         <div className="mt-24 pt-20 border-t border-white/10">
-          <h2 className="text-3xl font-black mb-10 text-white tracking-tighter italic uppercase text-center">Why Choose Me?</h2>
+          <h2 className="text-3xl font-black mb-10 text-white tracking-tighter  uppercase text-center">Why Choose Me?</h2>
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
             {WHY_CHOOSE_ME.map((reason, index) => (
               <motion.div

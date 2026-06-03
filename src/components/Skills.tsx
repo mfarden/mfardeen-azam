@@ -11,7 +11,7 @@ export function Skills() {
           viewport={{ once: true }}
           className="mb-16 text-center "
         >
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white uppercase tracking-tighter italic">Technical Arsenal</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white uppercase tracking-tighter ">Technical Arsenal</h2>
           <p className="text-white/60 max-w-2xl text-lg m-auto">The tools and technologies I use to build scalable web applications.</p>
         </motion.div>
 

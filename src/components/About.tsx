@@ -19,7 +19,7 @@ export function About() {
               About Me
             </div>
             
-            <h2 className="text-4xl md:text-6xl font-black mb-10 text-white tracking-tighter uppercase italic">
+            <h2 className="text-4xl md:text-6xl font-black mb-10 text-white tracking-tighter uppercase ">
               Core Professionalism
             </h2>
 

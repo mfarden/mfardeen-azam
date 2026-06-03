@@ -9,7 +9,7 @@ export function Testimonials() {
       <div className="absolute -top-40 -right-40 w-96 h-96 bg-emerald-500/10 rounded-full blur-[100px]"></div>
       
       <div className="max-w-7xl mx-auto px-6 relative z-10">
-        <h2 className="text-3xl md:text-5xl font-bold mb-16 text-center text-white tracking-tighter italic uppercase">Client Feedback</h2>
+        <h2 className="text-3xl md:text-5xl font-bold mb-16 text-center text-white tracking-tighter uppercase">Client Feedback</h2>
         
         <div className="grid md:grid-cols-3 gap-8">
           {TESTIMONIALS.map((testimonial, index) => (

@@ -6,7 +6,7 @@ export function Services() {
     <section id="services" className="py-24 bg-[#050505]">
       <div className="max-w-7xl mx-auto px-6">
         <div className="mb-16 text-center">
-          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white uppercase tracking-tighter italic">Our Services</h2>
+          <h2 className="text-3xl md:text-5xl font-bold mb-4 text-white uppercase tracking-tighter ">Our Services</h2>
           <p className="text-white/60 max-w-2xl text-lg m-auto">Delivering tailored, high-performance web solutions.</p>
         </div>
 
@@ -29,7 +29,7 @@ export function Services() {
                   <span className="text-white/20 font-mono text-xs font-bold">{String(index + 1).padStart(2, '0')}</span>
                 </div>
                 <div>
-                  <h3 className="text-xl font-bold text-white mb-3 tracking-tight italic">{service.title}</h3>
+                  <h3 className="text-xl font-bold text-white mb-3 tracking-tight ">{service.title}</h3>
                   <p className="text-[10px] text-white/50 uppercase font-mono tracking-widest leading-relaxed">
                     {service.description}
                   </p>
