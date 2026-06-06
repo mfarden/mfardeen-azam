@@ -176,7 +176,7 @@ export function Contact() {
                   <textarea required name="message" value={formData.message} onChange={handleChange} rows={4} className="w-full bg-[#050505] border border-white/10 rounded-lg px-4 py-3 text-white focus:outline-none focus:ring-1 focus:ring-emerald-500 transition-all resize-none font-mono text-sm" placeholder="Tell me about your project..."></textarea>
                 </div>
 
-                <button type="submit" disabled={isSubmitting} className=" inline-flex items-center justify-center px-6 py-3 border border-emerald-500/30 bg-emerald-500/10 text-emerald-400 font-bold uppercase text-[11px] tracking-[0.2em] hover:bg-emerald-500/20 hover:border-emerald-500/50 transition-all w-full sm:w-auto gap-2 disabled:cursor-not-allowed">
+                <button type="submit" disabled={isSubmitting} className=" inline-flex items-center justify-center px-6 py-3 border border-emerald-500/30 bg-emerald-500/10 text-emerald-400 font-bold uppercase text-[11px] tracking-[0.2em] hover:bg-emerald-500/20 hover:border-emerald-500/50 transition-all w-full sm:w-auto gap-2ino disabled:cursor-not-allowed">
                   {isSubmitting ? 'Sending...' : 'Start Your Project'}
                 </button>
              </form>

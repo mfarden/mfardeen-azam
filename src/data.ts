@@ -116,7 +116,7 @@ export const EXPERIENCE = [
         technologies: [ "Figma to WP", "Custom Theme Development", "WooCommerce","Git"]
   },
   {
-    role: "Wordpress Developer",
+    role: "WordPress Developer",
     company: "Digital Ride",
     period: "January 2025 - Aug 2025 (8 months)",
     achievements: [
@@ -126,7 +126,7 @@ export const EXPERIENCE = [
     technologies: [ "Figma to WP", "Custom Themes", "Custom Theme Development"]
   },
   {
-    role: "Landing page  | Wordpress Developer",
+    role: "Landing Page  | WordPress Developer",
     company: "Local Freelancer",
     period: "January 2024 – Present",
     achievements: [
@@ -138,7 +138,7 @@ export const EXPERIENCE = [
     technologies: ["Figma to WordPress", "Elementor", "Landing pages", "Responsive UI"]
   },
   {
-    role: "Frontend  |  Wordpress Developer ",
+    role: "Frontend  |  WordPress Developer ",
     company: "USEO - United Search Engine Optimization",
     period: "January 2023 - January 2024 (1 year 1 month)",
     achievements: [
