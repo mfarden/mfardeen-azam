@@ -1,10 +1,9 @@
-node_modules/
-.env.example
+node_modules
 package-lock.json
+.env.example
 build/
 dist/
 coverage/
 .DS_Store
 *.log
-.env*
-!.env.example
+

@@ -149,18 +149,19 @@ export function Contact() {
                   </div>
                 </div>
                 
-                <div className="grid md:grid-cols-2 gap-6">
+                <div className="grid md:grid-cols-1 gap-6">
                   <div className="space-y-2">
                     <label className="text-[10px] font-bold text-emerald-400 uppercase tracking-widest">Project Type</label>
                     <select name="projectType" value={formData.projectType} onChange={handleChange} className="w-full bg-[#050505] border border-white/10 rounded-lg px-4 py-3 text-white/80 focus:outline-none focus:ring-1 focus:ring-emerald-500 transition-all appearance-none cursor-pointer font-mono text-sm">
                       <option>WordPress Development</option>
+                      <option>Frontend Development</option>
                       <option>WooCommerce Store</option>
                       <option>Website Design</option>
                       <option>SEO/Optimization</option>
                       <option>Other</option>
                     </select>
                   </div>
-                  <div className="space-y-2">
+                  {/* <div className="space-y-2">
                     <label className="text-[10px] font-bold text-emerald-400 uppercase tracking-widest">Budget</label>
                     <select name="budget" value={formData.budget} onChange={handleChange} className="w-full bg-[#050505] border border-white/10 rounded-lg px-4 py-3 text-white/80 focus:outline-none focus:ring-1 focus:ring-emerald-500 transition-all appearance-none cursor-pointer font-mono text-sm">
                       <option>Less than $500</option>
@@ -168,7 +169,7 @@ export function Contact() {
                       <option>$1000 - $3000</option>
                       <option>More than $3000</option>
                     </select>
-                  </div>
+                  </div> */}
                 </div>
 
                 <div className="space-y-2">
