@@ -22,7 +22,7 @@ export function ExperienceSection() {
         {EXPERIENCE.map((exp, index) => (
           <div 
             key={index}
-            className="sticky top-[72px] min-h-[70vh] flex flex-col justify-center border-t border-neutral-200 dark:border-white/10 bg-white dark:bg-[#0a0a0a] px-6 py-16 md:py-24 shadow-[0_-5px_15px_rgba(0,0,0,0.05)] overflow-hidden"
+            className="sticky top-[72px] min-h-[70vh] flex flex-col justify-center border-t border-white/10 bg-[#050505] px-6 py-16 md:py-24 overflow-hidden""
           >
             <div className="max-w-7xl mx-auto w-full flex flex-col lg:flex-row gap-8 lg:gap-16">
               
